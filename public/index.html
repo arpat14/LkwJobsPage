@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>LKW Transport - Data</title>
+	<script src="https://code.angularjs.org/1.7.5/angular.min.js">
+
+	</script>
+	<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+
+<body ng-app="app">
+	<div ng-controller="ctrl as ct" class="container" style="width:220%">
+		<h3>LKW Transport real time data</h3>
+		<div ng-if="ct.loading" class="box">
+			Refreshing from API, please wait.
+			<div class="flex">
+				<h5>Total jobs: {{ct.data.jobsCount}}</h5>
+				<h5>Total Money: {{ct.data.jobsFinance.toLocaleString()}} &#8377;</h5>
+			</div>
+			<div class="flex">
+				<h5>Active: {{ct.data.usersActive}}</h5>
+				<h5>Total Length: {{ct.data.jobsLength.toLocaleString()}} km</h5>
+			</div>
+		</div>
+		<div ng-if="!ct.loading" class="box">
+			<div class="flex">
+				<h5>Total jobs: {{ct.data.jobsCount}}</h5>
+				<h5>Total Money: {{ct.data.jobsFinance.toLocaleString()}} &#8377;</h5>
+			</div>
+			<div class="flex">
+				<h5>Active: {{ct.data.usersActive}}</h5>
+				<h5>Total Length: {{ct.data.jobsLength.toLocaleString()}} km</h5>
+			</div>
+		</div>
+		<table class="table table-striped table-dark table-border table-sm" style="margin-top:5px">
+			<thead>
+				<tr>
+					<td colspan=3 align='center'>Sorted by:
+						<span style="color: indianred;">{{ct.orderByField}}
+              <span ng-if="ct.reverseSort">&#8964;</span>
+              <span ng-if="!ct.reverseSort">^</span>
+            </span>
+          </td>
+          <td colspan=4 align='center'>Distance (km)</td>
+          <td colspan=3 align='center'>Weight (tonnes)</td>
+          <td colspan=2 align='center'>finance (&#8377;)</td>
+          <td colspan=3 align='center'>Number of </td>
+        </tr>
+				<tr>
+					<th>#</th>
+					<th ng-click="ct.sortFunction('name')">User</th>
+					<th ng-click="ct.sortFunction('jobsCount')">Count</th>
+					<th ng-click="ct.sortFunction('jobsLength')">Total </th>
+					<th ng-click="ct.sortFunction('avgLength')">Avg </th>
+					<th ng-click="ct.sortFunction('minLength')">Min </th>
+					<th ng-click="ct.sortFunction('maxLength')">Max </th>
+					<th ng-click="ct.sortFunction('jobsMass')">Total </th>
+					<th ng-click="ct.sortFunction('maxMass')">Max </th>
+          <th ng-click="ct.sortFunction('minMass')">Min </th>
+					<th ng-click="ct.sortFunction('jobsFinance')">Total</th>
+					<th ng-click="ct.sortFunction('mileage')">Economy</th>
+					<th ng-click="ct.sortFunction('trucksUsed.length')" title="No. of trucks driven">Trucks</th>
+					<th ng-click="ct.sortFunction('lkwVisited')" title="No. of LKW visited">LKW</th>
+          <th ng-click="ct.sortFunction('peterVisited')" title="No. of St. Petersburg visit">Санкт</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="user in ct.data.user |orderBy:ct.orderByField:ct.reverseSort track by $index">
+					<td style="border-left:1px solid white;">{{$index + 1}}</td>
+					<td>{{user.name}}</td>
+					<td>{{user.jobsCount}}</td>
+					<td style="border-left:1px solid white;">{{user.jobsLength.toLocaleString()}} </td>
+					<td>{{user.avgLength.toLocaleString()}} </td>
+					<td>{{user.minLength.toLocaleString()}} </td>
+					<td>{{user.maxLength.toLocaleString()}} </td>
+					<td style="border-left:1px solid white;">{{user.jobsMass}} </td>
+					<td>{{user.maxMass}} </td>
+          <td>{{user.minMass}} </td>
+          <td style="border-left:1px solid white;">{{user.jobsFinance.toLocaleString()}} &#8377;</td>
+					<td>{{user.mileage}} L/100km</td>
+					<td style="border-left:1px solid white;" title="{{user.trucksUsed}}">{{user.trucksUsed.length}}</td>
+					<td>{{user.lkwVisited}}</td>
+          <td  style="border-right:1px solid white;">{{user.peterVisited}}</td>
+				</tr>
+			</tbody>
+		</table>
+    <button type="button" class="btn btn-primary" ng-click="ct.lastMonth()">Last Month Data</button>
+			<button type="button" class="btn btn-primary" ng-click="ct.yearData()">2018's Data</button>
+      
+		<h5>Made with &#10084; by <span class="rainbow">arpat</span></h5>
+    
+  </div>
+	<script src="javascripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+h3 {
+  padding: 10px;
+  text-shadow: 1px 2px 0px #61616191;
+}
+body {
+  background: #dad8d8 !important;
+}
+th {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.box {
+  padding: 10px;
+  background: #212529;
+  border-radius: 10px;
+  color: white;
+  margin-top: 1px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rainbow {  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 10s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 10s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 10s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: orange;}
+}

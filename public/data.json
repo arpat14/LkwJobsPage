@@ -1,0 +1,329 @@
+{
+ "companyId": 53,
+ "jobsCount": 109,
+ "jobsLength": 81197,
+ "jobsFinance": 117955,
+ "start": "Tue, 01 Jan 2019 00:00:00 GMT",
+ "end": "Fri, 01 Feb 2019 00:00:00 GMT",
+ "usersActive": "16 Truckers",
+ "avgLength": 744,
+ "user": [
+  {
+   "jobsCount": 19,
+   "jobsLength": 10555,
+   "minLength": 1,
+   "maxLength": 3105,
+   "avgLength": 555,
+   "jobsFinance": 13548,
+   "jobsMass": 437,
+   "maxMass": 47,
+   "minMass": 10,
+   "fuel": 4647,
+   "mileage": 44,
+   "lkwVisited": 1,
+   "trucksUsed": [
+    "DAF XF105",
+    "Kenworth W900",
+    "Freightliner FLB"
+   ],
+   "peterVisited": 1,
+   "name": "Dima V"
+  },
+  {
+   "jobsCount": 13,
+   "jobsLength": 10161,
+   "minLength": 78,
+   "maxLength": 1541,
+   "avgLength": 781,
+   "jobsFinance": 15937,
+   "jobsMass": 177,
+   "maxMass": 25,
+   "minMass": 3,
+   "fuel": 1066,
+   "mileage": 10,
+   "lkwVisited": 3,
+   "trucksUsed": [
+    "MAN TGX",
+    "Scania R"
+   ],
+   "peterVisited": 1,
+   "name": "TruckerBling"
+  },
+  {
+   "jobsCount": 12,
+   "jobsLength": 8701,
+   "minLength": 264,
+   "maxLength": 1880,
+   "avgLength": 725,
+   "jobsFinance": 16358,
+   "jobsMass": 351,
+   "maxMass": 44,
+   "minMass": 18,
+   "fuel": 427,
+   "mileage": 4,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "Kenworth T680",
+    "Iveco Stralis",
+    "Kenworth W900",
+    "Scania S"
+   ],
+   "peterVisited": 0,
+   "name": "Leo UK (LET) 9/11"
+  },
+  {
+   "jobsCount": 10,
+   "jobsLength": 11264,
+   "minLength": 41,
+   "maxLength": 2564,
+   "avgLength": 1126,
+   "jobsFinance": 12492,
+   "jobsMass": 159,
+   "maxMass": 24,
+   "minMass": 8,
+   "fuel": 3630,
+   "mileage": 32,
+   "lkwVisited": 1,
+   "trucksUsed": [
+    "Scania S"
+   ],
+   "peterVisited": 0,
+   "name": "Aslan"
+  },
+  {
+   "jobsCount": 7,
+   "jobsLength": 2102,
+   "minLength": 107,
+   "maxLength": 624,
+   "avgLength": 300,
+   "jobsFinance": 3042,
+   "jobsMass": 142,
+   "maxMass": 47,
+   "minMass": 8,
+   "fuel": 546,
+   "mileage": 26,
+   "lkwVisited": 1,
+   "trucksUsed": [
+    "Scania S",
+    "Scania R"
+   ],
+   "peterVisited": 0,
+   "name": "Tidders [LET]"
+  },
+  {
+   "jobsCount": 7,
+   "jobsLength": 3152,
+   "minLength": 55,
+   "maxLength": 696,
+   "avgLength": 450,
+   "jobsFinance": 4358,
+   "jobsMass": 90,
+   "maxMass": 20,
+   "minMass": 8,
+   "fuel": 973,
+   "mileage": 30,
+   "lkwVisited": 3,
+   "trucksUsed": [
+    "Mercedes-Benz Actros"
+   ],
+   "peterVisited": 0,
+   "name": "elliotdc305"
+  },
+  {
+   "jobsCount": 7,
+   "jobsLength": 11203,
+   "minLength": 939,
+   "maxLength": 3155,
+   "avgLength": 1600,
+   "jobsFinance": 16310,
+   "jobsMass": 95,
+   "maxMass": 24,
+   "minMass": 0,
+   "fuel": 3581,
+   "mileage": 31,
+   "lkwVisited": 1,
+   "trucksUsed": [
+    "Volvo VNL",
+    "DAF XF",
+    "Scania R"
+   ],
+   "peterVisited": 0,
+   "name": "Audley™ [EM]"
+  },
+  {
+   "jobsCount": 6,
+   "jobsLength": 2286,
+   "minLength": 81,
+   "maxLength": 875,
+   "avgLength": 381,
+   "jobsFinance": 3643,
+   "jobsMass": 99,
+   "maxMass": 28,
+   "minMass": 3,
+   "fuel": 521,
+   "mileage": 22,
+   "lkwVisited": 1,
+   "trucksUsed": [
+    "Scania R 2012",
+    "DAF XF105"
+   ],
+   "peterVisited": 0,
+   "name": "Quincy[NL]"
+  },
+  {
+   "jobsCount": 6,
+   "jobsLength": 5447,
+   "minLength": 68,
+   "maxLength": 2619,
+   "avgLength": 907,
+   "jobsFinance": 7515,
+   "jobsMass": 114,
+   "maxMass": 24,
+   "minMass": 9,
+   "fuel": 2041,
+   "mileage": 37,
+   "lkwVisited": 2,
+   "trucksUsed": [
+    "DAF XF105",
+    "DAF XF"
+   ],
+   "peterVisited": 0,
+   "name": "Polarbear"
+  },
+  {
+   "jobsCount": 5,
+   "jobsLength": 2584,
+   "minLength": 7,
+   "maxLength": 1345,
+   "avgLength": 516,
+   "jobsFinance": 3773,
+   "jobsMass": 104,
+   "maxMass": 40,
+   "minMass": 7,
+   "fuel": 384,
+   "mileage": 14,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "Iveco Stralis"
+   ],
+   "peterVisited": 0,
+   "name": "Dikkertje Dap"
+  },
+  {
+   "jobsCount": 5,
+   "jobsLength": 1812,
+   "minLength": 280,
+   "maxLength": 432,
+   "avgLength": 362,
+   "jobsFinance": 1219,
+   "jobsMass": 39,
+   "maxMass": 12,
+   "minMass": 3,
+   "fuel": 1319,
+   "mileage": 72,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "Scania R"
+   ],
+   "peterVisited": 0,
+   "name": "Zign"
+  },
+  {
+   "jobsCount": 4,
+   "jobsLength": 4414,
+   "minLength": 33,
+   "maxLength": 2027,
+   "avgLength": 1103,
+   "jobsFinance": 7840,
+   "jobsMass": 54,
+   "maxMass": 22,
+   "minMass": 0,
+   "fuel": 175,
+   "mileage": 3,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "Scania S",
+    "Scout Extra_D"
+   ],
+   "peterVisited": 0,
+   "name": "Adrigs"
+  },
+  {
+   "jobsCount": 3,
+   "jobsLength": 2235,
+   "minLength": 428,
+   "maxLength": 1208,
+   "avgLength": 745,
+   "jobsFinance": 3807,
+   "jobsMass": 28,
+   "maxMass": 12,
+   "minMass": 7,
+   "fuel": 348,
+   "mileage": 15,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "Renault Premium"
+   ],
+   "peterVisited": 1,
+   "name": "Sun Light"
+  },
+  {
+   "jobsCount": 2,
+   "jobsLength": 565,
+   "minLength": 242,
+   "maxLength": 323,
+   "avgLength": 282,
+   "jobsFinance": 820,
+   "jobsMass": 40,
+   "maxMass": 20,
+   "minMass": 20,
+   "fuel": 174,
+   "mileage": 30,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "MAN TGX"
+   ],
+   "peterVisited": 0,
+   "name": "Yodith [COO]"
+  },
+  {
+   "jobsCount": 2,
+   "jobsLength": 126,
+   "minLength": 60,
+   "maxLength": 65,
+   "avgLength": 63,
+   "jobsFinance": 141,
+   "jobsMass": 34,
+   "maxMass": 18,
+   "minMass": 15,
+   "fuel": 78,
+   "mileage": 62,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "MAN TGX",
+    "Volvo FH"
+   ],
+   "peterVisited": 0,
+   "name": "TheBreaker"
+  },
+  {
+   "jobsCount": 1,
+   "jobsLength": 4583,
+   "minLength": 4583,
+   "maxLength": 4583,
+   "avgLength": 4583,
+   "jobsFinance": 7152,
+   "jobsMass": 5,
+   "maxMass": 5,
+   "minMass": 5,
+   "fuel": 1022,
+   "mileage": 22,
+   "lkwVisited": 0,
+   "trucksUsed": [
+    "Scania R"
+   ],
+   "peterVisited": 0,
+   "name": "arpat"
+  }
+ ]
+}
